@@ -3,9 +3,9 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public int damage = 1;
-    public float lifeTime = 2f;          // 2초 뒤 삭제
-    public string targetTag = "Enemy";   // 맞히면 데미지
-    public string ownerTag = "Player";   // 쏜 쪽은 통과
+    public float lifeTime = 2f;         
+    public string targetTag = "Enemy";  
+    public string ownerTag = "Player"; 
 
     void Start()
     {
