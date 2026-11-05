@@ -29,6 +29,9 @@ public class RewardCalc : MonoBehaviour
 
         int nextExp = 100-(ExpRate % 100);
         Debug.Log("다음 레벨까지" + nextExp);
-     }
+
+        double result = (double)totalDamage / hits;
+        Debug.Log("평균 데미지 " + result);
+    }
 }
 
